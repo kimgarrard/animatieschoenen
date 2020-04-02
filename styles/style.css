@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+video {
+  width: 100vw;
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  display: flex;
+  position: absolute;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-rigth: 30vw;
+  justify-content: space-around;
+  bottom: 0;
+}
+
+img {
+  width: 20vw;
+  height: auto;
+  border: none;
+  cursor: pointer;
+}
