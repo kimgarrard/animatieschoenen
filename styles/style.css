@@ -8,6 +8,36 @@ video {
   position: absolute;
 }
 
+.videoloading {
+  position: absolute;
+  width: 100vw;
+  z-index: 5;
+}
+
+/* .svgbox {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+svg {
+  mix-blend-mode: lighten;
+  position: absolute;
+  z-index: 2;
+  animation: hart 3s forwards;
+}
+
+@keyframes hart {
+  0% {
+    width: 5vw;
+  }
+
+  100% {
+    width: 500vw;
+  }
+
+} */
+
 .hidden {
   display: none;
 }
@@ -15,15 +45,21 @@ video {
 section {
   display: flex;
   position: absolute;
-  width: 40vw;
-  margin-left: 30vw;
-  margin-rigth: 30vw;
+  width: 20vw;
+  margin-left: 40vw;
+  margin-rigth: 40vw;
   justify-content: space-around;
   bottom: 0;
 }
 
+.hoversection {
+  position: absolute;
+}
+
 img {
-  width: 20vw;
+  width: 12vw;
+  margin-left: -1.5vw;
+  margin-right: -1.5vw;
   height: auto;
   border: none;
   cursor: pointer;
