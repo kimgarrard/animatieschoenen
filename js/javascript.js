@@ -18,7 +18,10 @@ setTimeout(function() {
   loader.classList.add("hidden");
 }, 4000)
 
-
+let intro = document.querySelector(".videointro");
+setTimeout(function() {
+  intro.classList.add("hidden");
+}, 9000)
 
 
 
