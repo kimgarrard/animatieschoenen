@@ -69,6 +69,7 @@ img {
   height: auto;
   border: none;
   cursor: pointer;
+  object-fit: contain;
 }
 
 
